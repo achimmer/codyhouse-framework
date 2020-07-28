@@ -6,7 +6,7 @@
 
 :root {
   // font family
-  --font-primary: sans-serif;
+  --font-primary: system-ui, sans-serif;
 
   // body font size
   --text-base-size: 1em;
@@ -20,6 +20,7 @@
   --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
   --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
   --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+  --text-xxxxl: calc(var(--text-xxxl) * var(--text-scale-ratio));
 
   // line-height
   --body-line-height: 1.4;
@@ -36,6 +37,10 @@
       --text-scale-ratio: 1.25;
     }
   }
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
 }
 
 // --------------------------------
